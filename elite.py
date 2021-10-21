@@ -1646,6 +1646,12 @@ def start_methodezz():
     print('%s╠══[%s2%s] %sCrack Lambat %s[%sHasil Banyak%s]'%(O,P,O,P,O,P,O))
     print('%s╠══[%s3%s] %sCrack Sangat Lambat %s[%sHasil Lebih Banyak%s]'%(O,P,O,P,O,P,O))
     print('%s╠══[%s4%s] %sCrack Password Gabungan'%(O,P,O,P))
+def started():
+    print('%s║'%(O))
+    print('%s╠══[%s•%s] %sCrack Sedang Berjalan...'%(O,P,O,P))
+    print('%s╠══[%s•%s] %sAkun [OK] Disimpan Ke OK/%s.txt'%(O,P,O,P,tanggal))
+    print('%s╠══[%s•%s] %sAkun [CP] Disimpan Ke CP/%s.txt'%(O,P,O,P,tanggal))
+    print('%s╚══[%s•%s] %sAktifkan Mode Pesawat [5 Detik Saja] Setiap 5 Menit\n'%(O,P,O,P))
 def folder():
     try:os.mkdir("CP")
     except:pass
