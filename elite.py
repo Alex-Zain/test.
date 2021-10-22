@@ -515,8 +515,8 @@ def generate1(_cici_):
             elif len(i)>=6:
                 _dapunta_.append(i)
                 _dapunta_.append(i+"@123")
+                _dapunta_.append(i+"123")
                 _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"12345")
                 _dapunta_.append(i+"12345")
                 _dapunta_.append(i+"123456")
                 _dapunta_.append(i+"786")
@@ -537,8 +537,8 @@ def generate2(_cici_):
             else:
                 _dapunta_.append(i)
                 _dapunta_.append(i+"@123")
+                _dapunta_.append(i+"123")
                 _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"12345")
                 _dapunta_.append(i+"12345")
                 _dapunta_.append(i+"123456")
                 _dapunta_.append(i+"786")
@@ -560,8 +560,8 @@ def generate3(_cici_):
             else:
                 _dapunta_.append(i)
                 _dapunta_.append(i+"@123")
+                _dapunta_.append(i+"123")
                 _dapunta_.append(i+"1234")
-                _dapunta_.append(i+"12345")
                 _dapunta_.append(i+"12345")
                 _dapunta_.append(i+"123456")
                 _dapunta_.append(i+"786")
